@@ -1,0 +1,17 @@
+{
+  "name": "testcafetraining",
+  "version": "1.0.0",
+  "description": "Testcafe Training",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./testcases/LoginPageTest.js",
+    "test:chrome:headless": "testcafe chrome:headless ./testcases",
+    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone 8 ./testcases",
+    "test:safari": "testcafe safari ./testcases"
+  },
+  "author": "Bright Selvamani",
+  "license": "ISC",
+  "dependencies": {
+  "testcafe": "^1.8.7"
+  }
+}

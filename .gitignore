@@ -1,0 +1,7 @@
+.idea/
+
+/node_modules/
+/screenshots/
+
+*.iml
+.DS_Store
